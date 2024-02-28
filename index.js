@@ -3,7 +3,7 @@ const radioBtns = document.querySelectorAll(".radio-btn");
 for (let btn of radioBtns) {
   btn.addEventListener("change", (e) => {
     e.target.labels[0].children[1].classList.add("selected-plan");
-
+ 
     e.target.labels[0].classList.add("selected-plan-card")
 
     const otherLabels = document.querySelectorAll(".plan-card");
