@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Inter, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.main-heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+
+.horizontal-line {
+    width: 30%;
+    height: 1px;
+    background-color: #C8C8C8;
+}
+
+.main-heading {
+    color: #FF6B82;
+    font-size: 1.5rem;
+    font-family: Inter, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    width: 20%;
+    text-align: center;
+}
+
+#plans-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.plan-card {
+    border: 2px solid #C8C8C8;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: auto;
+    transition: all 0.2s;
+}
+
+
+.radio-btn {
+    accent-color: red;
+    height: 18px;
+    width: 18px;
+    margin-right: 20px;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.plan-details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.plan-details {
+    width: 60%;
+}
+
+.plan-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.plan-name {
+    margin-right: 10px;
+    line-height: 10px;
+
+}
+
+.discount {
+    background-color: #FF6B82;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 5px 2px 5px;
+}
+
+.plan-tag {
+    font-weight: 400;
+}
+
+.plan-price-details-container {
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.saving-discount {
+    text-decoration: line-through;
+    color: #B7B7B7;
+}
+
+
+.dropdown {
+    width: 70px;
+    padding: 2px;
+    margin: 8px;
+}
+
+.plan-customization-container {
+    margin-left: 40px;
+    transition: all 0.2s;
+}
+
+.size-text,
+.colour-text {
+    margin: 0 23px 0 28px;
+}
+
+.dropown-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-details-container {
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.delivery-type {
+    font-weight: 500;
+    color: #FF6B82;
+    font-size: 1.2 rem;
+}
+
+#selected-plan-price {
+    font-weight: 500;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+}
+
+.add-btn {
+    width: 100%;
+    background-color: #FF6B82;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.powered-by-text {
+    text-align: right;
+    color: #B7B7B7;
+}
+
+.un-selected-plan {
+    display: none;
+}
+
+.selected-plan {
+    display: block;
+}
+
+
+.selected-plan-card {
+    border: 2px solid #FF6B82;
+}
+
+#popular-plan {
+    position: relative;
+}
+
+.popular-plan-tag-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -8px;
+    right: 10px;
+}
+
+.popular-plan-tag {
+    background-color: #D7445B;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    top: 1px;
+    font-size: 0.8rem;
+    right:3% ;
+    width: 94%;
+    border-radius: 2px 2px 0px 0px;
+    text-align: center;
+}
